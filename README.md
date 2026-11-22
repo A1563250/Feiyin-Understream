@@ -42,27 +42,27 @@ feiyinci_nichuan_site/
 ## 三、替换素材（上线前必做）
 
 ### 1. 首屏背景图
-`assets/images/hero_bg.jpg` 已包含生成的雨夜港都背景（DEMO 生成稿），网页会自动加载。
+`hero_bg.jpg` 已包含生成的雨夜港都背景（DEMO 生成稿），网页会自动加载。
 想更换时，替换同名文件或修改 `site-data.js` 中的 `assets.heroBg` 路径即可。
 
 ### 2. 人物照片
-把照片放入 `assets/images/`（建议命名 `portrait.jpg`），在 `site-data.js` 的 `assets.portrait` 填路径。填好后剪影占位自动替换为照片。
+把照片放入 ``（建议命名 `portrait.jpg`），在 `site-data.js` 的 `assets.portrait` 填路径。填好后剪影占位自动替换为照片。
 
 ### 3. 真实作品
-当前 5 个主题各有一张 DEMO 概念卡（`demo_rain_port.jpg`、`demo_lost_roles.jpg`、`demo_water_poem.jpg`、`demo_mist_light.jpg`、`demo_old_slices.jpg`）和一张「遗失的光」待补卡。替换真实作品时，把图片放入 `assets/images/`，在 `site-data.js` 的 `works` 数组中把 DEMO 条目（`isDemo: true`）删除或替换为：
+当前 5 个主题各有一张 DEMO 概念卡（`demo_rain_port.jpg`、`demo_lost_roles.jpg`、`demo_water_poem.jpg`、`demo_mist_light.jpg`、`demo_old_slices.jpg`）和一张「遗失的光」待补卡。替换真实作品时，把图片放入 ``，在 `site-data.js` 的 `works` 数组中把 DEMO 条目（`isDemo: true`）删除或替换为：
 
 ```js
 { id: "work_01", theme: "rain_port", isDemo: false,
   title: "作品标题", year: "2024", medium: "插画", tools: "Photoshop",
   note: "20–50 字创作说明",
-  image: "assets/images/work_01.jpg",
+  image: "work_01.jpg",
   tags: ["雨夜", "霓虹"] }
 ```
 
 未提供图片的条目会显示「遗失的光」占位卡。
 
 ### 4. 真实录音
-把三段录音（建议 MP3）放入 `assets/audio/`，在 `site-data.js` 的 `recordings` 中填写：
+把三段录音（建议 MP3）放入 ``，在 `site-data.js` 的 `recordings` 中填写：
 
 ```js
 { id: "rec_01", title: "雨夜开场白", duration: "约 30 秒", unlockedAt: 0,

@@ -29,8 +29,8 @@ window.SITE_DATA = {
 
   /* ---------- 视觉资源路径（生成后替换） ---------- */
   assets: {
-    heroBg: "assets/images/hero_bg.jpg",
-    portrait: "assets/images/portrait.jpg"
+    heroBg: "hero_bg.jpg",
+    portrait: "portrait.jpg"
   },
 
   /* ---------- 五个灵感主题 ---------- */
@@ -55,40 +55,40 @@ window.SITE_DATA = {
   /* ---------- 作品列表 ----------
      isDemo: true  = 临时映像 / DEMO 占位（上线前替换或删除）
      image 为空时显示占位状态；真实作品请填写
-     image: "assets/images/work_01.jpg" 并补全元信息。
+     image: "work_01.jpg" 并补全元信息。
   ---------- */
   works: [
     { id: "work_demo_rain_port",  theme: "rain_port",  isDemo: true,
       title: "雨港霓虹 · 临时映像", year: "", medium: "", tools: "", note: "",
-      image: "assets/images/demo_rain_port.jpg", tags: ["临时映像", "DEMO"] },
+      image: "demo_rain_port.jpg", tags: ["临时映像", "DEMO"] },
     { id: "work_lost_rain_port",  theme: "rain_port",  isDemo: false,
       title: "遗失的光", year: "", medium: "", tools: "", note: "",
       image: "", tags: ["待补"] },
 
     { id: "work_demo_lost_roles", theme: "lost_roles", isDemo: true,
       title: "佚梦之影 · 临时映像", year: "", medium: "", tools: "", note: "",
-      image: "assets/images/demo_lost_roles.jpg", tags: ["临时映像", "DEMO"] },
+      image: "demo_lost_roles.jpg", tags: ["临时映像", "DEMO"] },
     { id: "work_lost_lost_roles", theme: "lost_roles", isDemo: false,
       title: "遗失的光", year: "", medium: "", tools: "", note: "",
       image: "", tags: ["待补"] },
 
     { id: "work_demo_water_poem", theme: "water_poem", isDemo: true,
       title: "水底诗章 · 临时映像", year: "", medium: "", tools: "", note: "",
-      image: "assets/images/demo_water_poem.jpg", tags: ["临时映像", "DEMO"] },
+      image: "demo_water_poem.jpg", tags: ["临时映像", "DEMO"] },
     { id: "work_lost_water_poem", theme: "water_poem", isDemo: false,
       title: "遗失的光", year: "", medium: "", tools: "", note: "",
       image: "", tags: ["待补"] },
 
     { id: "work_demo_mist_light", theme: "mist_light", isDemo: true,
       title: "雾中灯影 · 临时映像", year: "", medium: "", tools: "", note: "",
-      image: "assets/images/demo_mist_light.jpg", tags: ["临时映像", "DEMO"] },
+      image: "demo_mist_light.jpg", tags: ["临时映像", "DEMO"] },
     { id: "work_lost_mist_light", theme: "mist_light", isDemo: false,
       title: "遗失的光", year: "", medium: "", tools: "", note: "",
       image: "", tags: ["待补"] },
 
     { id: "work_demo_old_slices", theme: "old_slices", isDemo: true,
       title: "旧日切片 · 临时映像", year: "", medium: "", tools: "", note: "",
-      image: "assets/images/demo_old_slices.jpg", tags: ["临时映像", "DEMO"] },
+      image: "demo_old_slices.jpg", tags: ["临时映像", "DEMO"] },
     { id: "work_lost_old_slices", theme: "old_slices", isDemo: false,
       title: "遗失的光", year: "", medium: "", tools: "", note: "",
       image: "", tags: ["待补"] }
@@ -100,13 +100,13 @@ window.SITE_DATA = {
   ---------- */
   recordings: [
     { id: "rec_01", title: "雨夜开场白", duration: "约 30 秒", unlockedAt: 0,
-      file: "assets/audio/feiyinci_01_opening.mp3",
+      file: "feiyinci_01_opening.mp3",
       script: "这里是溺川。今夜的雨比信号更早抵达，楼群沉在水下一样的蓝光里。映画馆藏已经开放，里面存放着我从不同夜晚拾起的影像。你可以先在雨里停留片刻，也可以直接去看那些光。" },
     { id: "rec_02", title: "馆藏导览", duration: "约 30 秒", unlockedAt: 0,
-      file: "assets/audio/feiyinci_02_guide.mp3",
+      file: "feiyinci_02_guide.mp3",
       script: "映画馆藏分为五个区域。雨港霓虹、佚梦角色、水底诗章、雾中灯影，以及旧日切片。它们分别收藏城市反光、无名身影、下沉的梦、远处的灯，和生活遗落的细小证据。不必按顺序经过。你停住的地方，就是入口。" },
     { id: "rec_03", title: "隐藏频段", duration: "约 30 秒", unlockedAt: 70,
-      file: "assets/audio/feiyinci_03_hidden.mp3",
+      file: "feiyinci_03_hidden.mp3",
       script: "隐藏频段接通了。你已经穿过大部分雨幕，也看见了一些不常被打开的影像。档案馆因此留下一枚新的刻度。谢谢你拾起这些光。若雨停之后仍想回来，溺川会为再次抵达的人留一盏很暗的灯。" }
   ],
 
